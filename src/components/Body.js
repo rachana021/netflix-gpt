@@ -1,9 +1,16 @@
 import React from 'react'
 import Login from './Login'
 import Browse from './Browse'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { RouterProvider, createBrowserRouter, useNavigate } from 'react-router-dom'
+import { auth } from '../utils/Firebase';
+import { onAuthStateChanged } from 'firebase/auth';
+import { useState } from 'react'
+import { useDispatch } from 'react-redux';
 
 const Body = () => {
+
+ 
+  
 
     const appRouter = createBrowserRouter([
         {
@@ -15,6 +22,7 @@ const Body = () => {
             element:<Browse/>,
         },
     ]);
+
 
 
   return (
