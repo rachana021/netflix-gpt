@@ -9,4 +9,6 @@ export const API_OPTIONS = {
       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyZWRjNDkwMWZiMzE4Y2Y1NjE3YWU4NDhhY2E1MmJjZiIsInN1YiI6IjY2NTZjMzY5NTEzZDhjYjE1ZjUxNDc4MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.NgkwrS67hFa7_x2ysma2L9LnMD1iwNifjSIr90-KuWs'
     }
   };
+
+  export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500"
   
